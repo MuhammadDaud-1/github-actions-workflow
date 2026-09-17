@@ -1,0 +1,10 @@
+name: daud
+on:
+ push:
+   branches: [ main ]
+jobs:
+    demo:
+         runs-on: ubantu - latest
+steps:
+     -name: greetings
+    run: echo"hello apun"
